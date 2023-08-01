@@ -1,0 +1,253 @@
+.bil {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -4;
+}
+
+.topbar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 12%;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: -3;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.overskrift {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    position: absolute;
+    top: -20%;
+    left: 2%;
+    font-size: 300%;
+    z-index: -2;
+}
+
+.highlighted-text {
+    color: #0665ff; /* or any color you prefer */
+}
+
+.highlighted-text {
+    text-shadow: 0 0 10px #0665ff;  /* Replace #00ff00 with your desired glow color */
+    animation: glow-animation 2s ease-in-out infinite;
+  }
+  
+  @keyframes glow-animation {
+    0% {
+      text-shadow: 0 0 10px #0665ff; /* Replace #00ff00 with your desired glow color */
+    }
+    50% {
+      text-shadow: 0 0 20px #0665ff;  /* Replace #00ff00 with your desired glow color */
+    }
+    100% {
+      text-shadow: 0 0 10px #0665ff;  /* Replace #00ff00 with your desired glow color */
+    }
+}
+
+.overskriftbox {
+    position: absolute;
+    top: 26%;
+    left: 13%;
+    width: 61%;
+    height: 23%;
+    background-color: #00000062;
+    z-index: -3;
+    border-radius: 20px;
+}
+
+.tekst {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    left: 2%;
+    top: 40%;
+    position: absolute;
+}
+
+.regler {
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 0%;
+    transition: transform 0.5s ease;
+}
+
+.discord {
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 0%;
+    transition: transform 0.5s ease;
+}
+
+.founder {
+    color: white;
+    position: absolute;
+    left: 54%;
+    top: 0%;
+    font-size: 100%;
+    transition: transform 0.5s ease;
+}
+
+.ans {
+    color: white;
+    position: absolute;
+    left: 65%;
+    top: 0%;
+    font-size: 100%;
+    transition: transform 0.5s ease;
+}
+
+.home {
+    color: white;
+    position: absolute;
+    left: 26%;
+    top: 0%;
+    transition: transform 0.5s ease;
+}
+
+a:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+
+.logo {
+    scale: 0.3;
+    position: absolute;
+    top: -80%;
+    left: -6%;
+}
+
+.nederst {
+    position: absolute;
+    top: 60%;
+    right: 13%;
+    width: 61%;
+    height: 23%;
+    background-color: #00000062;
+    z-index: -3;
+    border-radius: 20px;
+}
+
+.overskrift2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    position: absolute;
+    top: -20%;
+    left: 2%;
+    font-size: 300%;
+    z-index: -2;
+}
+
+.highlighted-text {
+    color: #0665ff; /* or any color you prefer */
+}
+
+.highlighted-text {
+    text-shadow: 0 0 10px #0665ff;  /* Replace #00ff00 with your desired glow color */
+    animation: glow-animation 2s ease-in-out infinite;
+  }
+  
+  @keyframes glow-animation {
+    0% {
+      text-shadow: 0 0 10px #0665ff; /* Replace #00ff00 with your desired glow color */
+    }
+    50% {
+      text-shadow: 0 0 20px #0665ff;  /* Replace #00ff00 with your desired glow color */
+    }
+    100% {
+      text-shadow: 0 0 10px #0665ff;  /* Replace #00ff00 with your desired glow color */
+    }
+}
+
+.com {
+    transform: scale(0.50);
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transition: transform 0.3s ease;
+}
+
+.com:hover {
+    transform: scale(0.55);
+}
+
+.fivem {
+    position: absolute;
+    transform: scale(0.3); /* Use 'transform' instead of 'scale' for compatibility */
+    top: 3%;
+    left: 64%;
+    transition: transform 0.3s ease; /* Add the 'transition' property */
+}
+
+.fivem:hover {
+    transform: scale(0.35); /* Use 'transform' instead of 'scale' for compatibility */
+}
+
+.ooc {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    width: 20%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.Bande {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    width: 20%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.jobs {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    width: 20%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.Discord {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    top: 20%;
+    left: 76%;
+    width: 20%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.reglernavn {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: #0665ff;
+    font-size: 300%;
+    transition: transform 0.5s ease;
+}
+
+.reglernavn:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+.lorem {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    font-size: 150%;
+}
